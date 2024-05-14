@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Guess the Number</h1>
+    <h2>Guess the secret number between 1 and 100.</h2>
+    <input type="number" id="guess" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Guess</button>
+    <p id="message"></p>
+    <p>Rounds won: <span id="rounds-won">0</span></p>
+    <p>Rounds played: <span id="rounds-played">0</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
